@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6C5BFA131A6CBFCCB389FE53 /* Pods_DHDownLoader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CFAC44DD0C9260D44CA8A3 /* Pods_DHDownLoader_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		779DB12B1ECAD103004A7529 /* DHDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB12A1ECAD103004A7529 /* DHDownLoader.m */; };
+		779DB12E1ECAD136004A7529 /* DHFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 779DB12D1ECAD136004A7529 /* DHFileTool.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C5DA318F915938443892060B /* Pods_DHDownLoader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5D1B68008941A126C1705D /* Pods_DHDownLoader_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		11A9EA14C5624C1FA2F15426 /* Pods-DHDownLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHDownLoader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHDownLoader_Example/Pods-DHDownLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		262DA13290BCFB86932CB44F /* DHDownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHDownLoader.podspec; path = ../DHDownLoader.podspec; sourceTree = "<group>"; };
+		262DA13290BCFB86932CB44F /* DHDownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHDownLoader.podspec; path = ../DHDownLoader.podspec; sourceTree = "<group>"; };
 		5D5D1B68008941A126C1705D /* Pods_DHDownLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHDownLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DHDownLoader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHDownLoader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,14 +60,18 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		6004842D2ED84DC0B392A0A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6004842D2ED84DC0B392A0A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6B30B2BB590533B70356B454 /* Pods-DHDownLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHDownLoader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHDownLoader_Tests/Pods-DHDownLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779DB1291ECAD103004A7529 /* DHDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDownLoader.h; sourceTree = "<group>"; };
+		779DB12A1ECAD103004A7529 /* DHDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDownLoader.m; sourceTree = "<group>"; };
+		779DB12C1ECAD136004A7529 /* DHFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFileTool.h; sourceTree = "<group>"; };
+		779DB12D1ECAD136004A7529 /* DHFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFileTool.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4CFAC44DD0C9260D44CA8A3 /* Pods_DHDownLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHDownLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA691596A2BE4961CE6C24CA /* Pods-DHDownLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHDownLoader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHDownLoader_Tests/Pods-DHDownLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C29657F369C2D8A7FA9AD7BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C29657F369C2D8A7FA9AD7BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED678FACF66F179C459A121F /* Pods-DHDownLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHDownLoader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHDownLoader_Example/Pods-DHDownLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +149,7 @@
 		6003F593195388D20070C39A /* Example for DHDownLoader */ = {
 			isa = PBXGroup;
 			children = (
+				779DB1281ECAD0F5004A7529 /* Classes */,
 				6003F59C195388D20070C39A /* DHAppDelegate.h */,
 				6003F59D195388D20070C39A /* DHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +201,17 @@
 				C29657F369C2D8A7FA9AD7BE /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		779DB1281ECAD0F5004A7529 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				779DB1291ECAD103004A7529 /* DHDownLoader.h */,
+				779DB12A1ECAD103004A7529 /* DHDownLoader.m */,
+				779DB12C1ECAD136004A7529 /* DHFileTool.h */,
+				779DB12D1ECAD136004A7529 /* DHFileTool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +412,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779DB12E1ECAD136004A7529 /* DHFileTool.m in Sources */,
+				779DB12B1ECAD103004A7529 /* DHDownLoader.m in Sources */,
 				6003F59E195388D20070C39A /* DHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

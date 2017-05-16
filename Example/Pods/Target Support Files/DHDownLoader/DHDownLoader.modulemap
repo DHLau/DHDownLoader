@@ -1,0 +1,6 @@
+framework module DHDownLoader {
+  umbrella header "DHDownLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
