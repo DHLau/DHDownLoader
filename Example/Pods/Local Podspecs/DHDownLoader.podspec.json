@@ -1,8 +1,8 @@
 {
   "name": "DHDownLoader",
   "version": "0.1.0",
-  "summary": "A short description of DHDownLoader.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "downloader",
+  "description": "An convenient download tool",
   "homepage": "https://github.com/DHLau/DHDownLoader",
   "license": {
     "type": "MIT",

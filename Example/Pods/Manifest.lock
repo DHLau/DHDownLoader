@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DHDownLoader: 718370db274d948343ac17e0dc1ec1efef2e3fc7
+  DHDownLoader: a2efefad14798d03d0cfb4711c858ac1e81413fb
 
 PODFILE CHECKSUM: a3923f456ba3ca19c2f369bcd9b2922072abe93a
 

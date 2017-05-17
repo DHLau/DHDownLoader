@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DHDownLoader'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'downloader'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'An convenient download tool'
+  s.description      = 'A convenient download tool'
 
   s.homepage         = 'https://github.com/DHLau/DHDownLoader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
